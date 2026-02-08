@@ -5,14 +5,14 @@ import cors from 'cors'
 import express from 'express'
 import { toNodeHandler } from 'better-auth/node'
 
-import classesRouter from './routes/classes.routes'
-import departmentsRouter from './routes/departments.routes'
-import enrollmentsRouter from './routes/enrollments.routes'
-import statsRouter from './routes/stats.routes'
-import subjectsRouter from './routes/subjects.routes'
-import usersRouter from './routes/users.routes'
-import securityMiddleware from './middleware/security'
-import { auth } from './lib/auth'
+import classesRouter from './routes/classes.routes.js'
+import departmentsRouter from './routes/departments.routes.js'
+import enrollmentsRouter from './routes/enrollments.routes.js'
+import statsRouter from './routes/stats.routes.js'
+import subjectsRouter from './routes/subjects.routes.js'
+import usersRouter from './routes/users.routes.js'
+import securityMiddleware from './middleware/security.js'
+import { auth } from './lib/auth.js'
 
 const app = express()
 
