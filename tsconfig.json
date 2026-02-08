@@ -5,7 +5,7 @@
     "lib": ["ES2022"],
     /* Node ESM */
     "module": "ES2022",
-    "moduleResolution": "nodenext", 
+    "moduleResolution": "node", 
     "rootDir": "src",
     "outDir": "dist",
 

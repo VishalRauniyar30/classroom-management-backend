@@ -1,6 +1,6 @@
 import { Router } from "express"
 
-import { getAllDepartments } from "../controllers/departments.controller"
+import { getAllDepartments } from "../controllers/departments.controller.js"
 
 const departmentsRouter = Router()
 
