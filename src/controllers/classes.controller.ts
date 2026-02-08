@@ -1,8 +1,8 @@
 import { Request, Response } from "express"
 import { and, desc, eq, getTableColumns, ilike, or, sql } from "drizzle-orm"
 
-import { db } from "../db"
-import { classes, subjects, user } from "../db/schema"
+import { db } from "../db/index.js"
+import { classes, subjects, user } from "../db/schema/index.js"
 
 export const getAllClasses = async (req: Request, res: Response) => {
     try {

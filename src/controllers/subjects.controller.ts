@@ -1,8 +1,8 @@
 import { Request, Response } from "express"
 import { and, desc, eq, getTableColumns, ilike, or, sql } from "drizzle-orm"
 
-import { departments, subjects } from "../db/schema"
-import { db } from "../db"
+import { departments, subjects } from "../db/schema/index.js"
+import { db } from "../db/index.js"
 
 // Get all subjects with optional search, department filter, and pagination
 export const getAllSubjects = async (req: Request, res: Response) => {
