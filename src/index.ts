@@ -11,7 +11,7 @@ import enrollmentsRouter from './routes/enrollments.routes.js'
 import statsRouter from './routes/stats.routes.js'
 import subjectsRouter from './routes/subjects.routes.js'
 import usersRouter from './routes/users.routes.js'
-import securityMiddleware from './middleware/security.js'
+// import securityMiddleware from './middleware/security.js'
 import { auth } from './lib/auth.js'
 
 const app = express()

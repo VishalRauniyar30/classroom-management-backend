@@ -1,6 +1,10 @@
 import { Router } from "express"
 
-import { createSubject, getAllSubjects, getClassesInSubject, getSubjectDetails, getUsersOfSubjects } from "../controllers/subjects.controller.js"
+import {
+    createSubject, getAllSubjects,
+    getClassesInSubject, getSubjectDetails,
+    getUsersOfSubjects
+} from "../controllers/subjects.controller.js"
 
 const subjectsRouter = Router()
 

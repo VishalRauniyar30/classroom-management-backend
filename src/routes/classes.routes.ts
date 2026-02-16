@@ -1,6 +1,9 @@
 import { Router } from "express"
 
-import { createClass, getAllClasses, getClassDetails, getUsersOfClass } from "../controllers/classes.controller.js"
+import {
+    createClass, getAllClasses,
+    getClassDetails, getUsersOfClass
+} from "../controllers/classes.controller.js"
 
 const classesRouter = Router()
 
