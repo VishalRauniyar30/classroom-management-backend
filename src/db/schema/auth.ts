@@ -20,7 +20,7 @@ export const user = pgTable('user', {
     email: text('email').notNull(),
     emailVerified: boolean('email_verified').notNull(),
     image: text('image'),
-    role: roleEnum('role').default('student'),
+    role: roleEnum('role').notNull().default('student'),
     imageCldPubId: text('image_cld_pub_id'),
 
     ...timestamps
